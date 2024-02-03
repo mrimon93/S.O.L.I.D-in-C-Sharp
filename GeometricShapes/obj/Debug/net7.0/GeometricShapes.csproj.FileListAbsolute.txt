@@ -1,0 +1,11 @@
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\bin\Debug\net7.0\GeometricShapes.deps.json
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\bin\Debug\net7.0\GeometricShapes.dll
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\bin\Debug\net7.0\GeometricShapes.pdb
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\obj\Debug\net7.0\GeometricShapes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\obj\Debug\net7.0\GeometricShapes.AssemblyInfoInputs.cache
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\obj\Debug\net7.0\GeometricShapes.AssemblyInfo.cs
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\obj\Debug\net7.0\GeometricShapes.csproj.CoreCompileInputs.cache
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\obj\Debug\net7.0\GeometricShapes.dll
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\obj\Debug\net7.0\refint\GeometricShapes.dll
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\obj\Debug\net7.0\GeometricShapes.pdb
+C:\Users\Muzammil Kamaly\Documents\GitHub\S.O.L.I.D-in-C-Sharp\GeometricShapes\obj\Debug\net7.0\ref\GeometricShapes.dll
