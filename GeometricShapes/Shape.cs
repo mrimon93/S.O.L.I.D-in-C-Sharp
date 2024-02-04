@@ -1,6 +1,12 @@
-﻿namespace GeometricShapes;
+﻿// Shape.cs
+using System;
 
-public class Shape
+namespace GeometricShapes
 {
-
+    // Single Responsibility Principle (SRP): Represents a geometric shape
+    public abstract class Shape
+    {
+        // Open/Closed Principle (OCP): Encapsulates the area calculation, open for extension
+        public abstract double Area();
+    }
 }
