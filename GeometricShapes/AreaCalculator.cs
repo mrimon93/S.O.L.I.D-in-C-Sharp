@@ -21,5 +21,7 @@ public class AreaCalculator
             totalArea += shape.Area();
         }
 
+        _logger.Log($"Total Area: {totalArea}")
+
     }
 }
