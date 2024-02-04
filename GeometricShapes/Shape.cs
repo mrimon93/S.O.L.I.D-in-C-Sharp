@@ -1,5 +1,4 @@
-﻿// Shape.cs
-using System;
+﻿using System;
 
 namespace GeometricShapes
 {
