@@ -1,27 +1,32 @@
 ﻿using System;
 
-
-namespace GeometricShapes;
-
-public class AreaCalculator
+namespace GeometricShapes
 {
-    private readonly ILogger _logger; 
-
-    public AreaCalculator (ILogger logger)
+    // Single Responsibility Principle (SRP): Calculates total area of shapes
+    public class AreaCalculator
     {
-        _logger = logger; 
-    }
+        private readonly ILogger _logger;
 
-    public double CalculateTotalArea(Shape[] shapes)
-    {
-        double totalArea = 0;
-
-        foreach (var shape in shapes)
+        // Dependency Inversion Principle (DIP): Logger dependency injection through constructor
+        public AreaCalculator(ILogger logger)
         {
-            totalArea += shape.Area();
+            _logger = logger;
         }
 
-        _logger.Log($"Total Area: {totalArea}")
+        public double CalculateTotalArea(Shape[] shapes)
+        {
+            double totalArea = 0;
 
+            foreach (var shape in shapes)
+            {
+                // Open/Closed Principle (OCP): Utilizes the Area method without modification
+                totalArea += shape.Area();
+            }
+
+            // Single Responsibility Principle (SRP): Logging responsibility delegated to Logger
+            _logger.Log($"Total Area: {totalArea}");
+
+            return totalArea;
+        }
     }
 }
