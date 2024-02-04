@@ -12,4 +12,14 @@ public class AreaCalculator
         _logger = logger; 
     }
 
+    public double CalculateTotalArea(Shape[] shapes)
+    {
+        double totalArea = 0;
+
+        foreach (var shape in shapes)
+        {
+            totalArea += shape.Area();
+        }
+
+    }
 }
