@@ -1,20 +1,14 @@
 ﻿using System;
 
-namespace GeometricShapes.Logger;
+namespace GeometricShapes.Logger
 { 
-    public class ConsoleLogger
+    public class ConsoleLogger : ILogger
     {
-        public class ConsoleLogger : ILogger
+        public void Log(string message)
         {
-            public void Log(string message)
-            {
-                Console.WriteLine($"[Log] {message}")
-            }
+            Console.WriteLine($"[Log] {message}");
         }
-
     }
-
-
 }
 
 
