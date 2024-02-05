@@ -1,3 +1,6 @@
+using Xunit;
+using GeometricShapesTests;
+
 namespace GeometricShapesTests;
 
 public class ShapeTests
