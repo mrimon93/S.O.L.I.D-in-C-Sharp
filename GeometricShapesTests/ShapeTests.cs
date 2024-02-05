@@ -1,6 +1,6 @@
 namespace GeometricShapesTests;
 
-public class UnitTest1
+public class ShapeTests
 {
     [Fact]
     public void Test1()
